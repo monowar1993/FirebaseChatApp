@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.monowar.firebasechatapp.AccountSettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/no_avatar" />
+
+    <TextView
+        android:id="@+id/tv_display_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_profile_image"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_display_name"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_change_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_change_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/white"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:text="@string/change_image"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_change_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/colorAccent"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:text="@string/change_status"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

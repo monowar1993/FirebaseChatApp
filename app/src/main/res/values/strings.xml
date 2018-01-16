@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Firebase Chat App</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Create Account</string>
+    <string name="title_activity_account_settings">Account Settings</string>
+    <string name="title_activity_change_status">Change Status</string>
+    <string name="title_activity_crop_image">Crop Image</string>
+    <string name="title_activity_all_users">All Users</string>
+    <string name="title_activity_user_profile">User Profile</string>
+
+    <!--Menu-->
+    <string name="action_logout">Logout</string>
+    <string name="action_account_settings">Account Settings</string>
+    <string name="action_all_users">All Users</string>
+
+    <!--Error-->
+    <string name="error_display_name">Please Enter your Display Name</string>
+    <string name="error_email">Please Enter Your Email</string>
+    <string name="error_valid_email">Please Enter a Valid Email</string>
+    <string name="error_password">Please Enter Your Password</string>
+    <string name="error_valid_password">Password Length must be at least 4</string>
+
+    <!--Firebase Error-->
+    <string name="error_weak_password">Your Password is Weak</string>
+    <string name="error_invalid_email_password">Invalid Email or Password</string>
+    <string name="error_user_exists">User Already Exists</string>
+
+    <!--Static String-->
+    <string name="new_account">NEED A NEW ACCOUNT?</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="already_have_account">ALREADY HAVE ACCOUNT</string>
+    <string name="welcome_to_firebase_chat_app">Welcome to Firebase Chat App</string>
+    <string name="login_to_your_account">Login to Your Account</string>
+    <string name="login">Login</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="dismiss">DISMISS</string>
+    <string name="change_image">Change Image</string>
+    <string name="change_status">Change Status</string>
+    <string name="change_your_status">Change Your Status</string>
+    <string name="send_friend_request">Send Friend Request</string>
+    <string name="decline_friend_request">Decline Friend Request</string>
+    <string name="cancel_friend_request">Cancel Friend Request</string>
+    <string name="accept_friend_request">Accept Friend Request</string>
+    <string name="unfriend">Unfriend</string>
+    <string name="friend_request_sent">Friend Request Sent Successfully</string>
+    <string name="friend_request_canceled">Friend Request Canceled Successfully</string>
+    <string name="friend_request_accepted">Friend Request Accepted</string>
+
+</resources>
